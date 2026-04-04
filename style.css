@@ -7,6 +7,10 @@
 header {
   background-color: #fbfbfa; 
   border-bottom: 1px solid #e5e2dc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
 }
 
 .container{
