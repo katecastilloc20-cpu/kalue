@@ -30,13 +30,136 @@ nav a{
     margin: 0px 15px;
     text-decoration: none;
     color: #6d6d6d;
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: 2px;
-
 
 }
 
 .icono img{
     width: 25px;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.suscripcion{
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #f7f5f2;
+}
+
+.suscripcion h2{
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #2c2c2c;
+}
+
+.suscripcion p{
+    color: #6d6d6d;
+     margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form input {
+  padding: 12px 15px;
+  width: 280px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+}
+
+.form button {
+  padding: 12px 20px;
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background-color: #000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+  background-color: #f7f5f2;
+  border-top: 1px solid #e5e2dc;
+}
+
+.footer-col {
+  width: 30%;
+}
+
+.footer-col h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-col h4 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  color: #2c2c2c;
+}
+
+.footer-col p {
+  color: #6d6d6d;
+  font-size: 14px;
+}
+
+.footer-col a {
+  display: block;
+  text-decoration: none;
+  color: #6d6d6d;
+  margin-bottom: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-col a:hover {
+  color: #000;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f5f2;
+  border-top: 1px solid #e5e2dc;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #8a8a8a;
 }
