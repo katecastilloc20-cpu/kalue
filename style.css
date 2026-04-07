@@ -299,3 +299,117 @@ nav a{
   font-size: 13px;
   color: #8a8a8a;
 }
+
+@media (max-width: 1024px){
+  
+   nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  nav a {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  
+  
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 40px;
+  
+  }
+
+  .texto{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .hero-img {
+width: 100%;
+  }
+
+  .hero-img img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .beneficios{
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 40px;
+  }
+
+  .beneficio{
+    width: 100%;
+  }
+
+  .producto{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 40px 60px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .container {
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 20px;
+  }
+
+   .icono {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 5px 10px;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .texto h1 {
+    font-size: 40px;
+  }
+
+  .descripcion {
+    font-size: 14px;
+  }
+
+  .productos {
+    grid-template-columns: 1fr;
+    padding: 0 20px 50px;
+  }
+
+  .producto img {
+    height: 250px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+}
