@@ -64,6 +64,7 @@ nav a{
 .categoria{
   padding: 40px 80px;
   background-color: #f7f5f2;
+  border-bottom: 1px solid #e5e2dc;
 }
 
 .categoria h2 {
@@ -99,6 +100,9 @@ nav a{
   height: 300px;
   object-fit: cover;
   transition: 0.4s;
+  max-width: 250px;
+  margin: auto;
+  display: block;
 }
 
 .producto:hover {
@@ -295,7 +299,18 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
+  
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .icono {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
   }
    .categoria {
     padding: 30px 20px;
