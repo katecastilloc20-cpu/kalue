@@ -50,7 +50,7 @@ nav a{
 
 .nosotros{
   background-color: #f7f5f2;
-  padding: 100px 0px;
+  padding: 60px 0px;
   text-align: center;
 }
 
@@ -70,13 +70,14 @@ nav a{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 60px;
-  max-width: 1000px;
-  margin: 80px auto 0;
+  gap: 80px;
+  margin-top: 40px;
 }
 
-.historia-texto{
-  max-width: 480px;
+.columna-texto{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   text-align: left;
 }
 
@@ -115,9 +116,10 @@ nav a{
 .nosotros-valores{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
   gap: 40px;
-  margin-top: 40px;
+ 
 }
 
 .nosotros-valores div{
@@ -134,28 +136,6 @@ nav a{
 .nosotros-valores p{
   font-size: 14px;
   color: #6d6d6d;
-}
-
-@media(max-width:768px){
-
-  .nosotros-historia{
-    flex-direction: column;
-    text-align: center;
-    gap: 40px;
-  }
-
-  .historia-texto{
-    max-width: 100%;
-    text-align: center;
-  }
-
-   .historia-img{
-    justify-content: center;
-  }
-  .nosotros-valores{
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 .suscripcion{
@@ -261,7 +241,7 @@ nav a{
   color: #8a8a8a;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px){
 
   .container{
     flex-direction: column;
@@ -274,29 +254,52 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-  }
-  .nosotros-historia{
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
+    gap: 15px;
+  
   }
 
-  .historia-texto{
-    max-width: 100%;
+  nav a {
+    font-size: 14px;
+  }
+
+  .icono {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .nosotros-historia{
+    grid-template-columns: 1fr; /* 👈 UNA SOLA COLUMNA */
+    gap: 40px;
+    text-align: center;
+  }
+
+  .columna-texto{
+    align-items: center;
+    text-align: center;
+  }
+
+  .nosotros-intro h1{
+    font-size: 34px;
+  }
+
+  .historia-texto h2{
+    font-size: 28px;
+  }
+
+  .historia-img{
+    justify-content: center;
   }
 
   .historia-img img{
+    max-width: 280px;
     width: 100%;
-    max-width: 320px;
   }
 
-  .nosotros-valores{
+    .nosotros-valores{
     flex-direction: column;
-    align-items: center;
   }
-}
 
+}
 
 
 
