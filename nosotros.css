@@ -17,7 +17,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 60px;
-    
 }
 
 .logo img{
@@ -43,26 +42,18 @@ nav a{
     cursor: pointer;
 }
 
-
-
-
-
-
-/* CONTENEDOR GLOBAL (clave para que todo se vea igual que colección) */
 .contenedor{
   max-width: 1100px;
   margin: auto;
   padding: 0 20px;
 }
 
-/* SECCIÓN PRINCIPAL */
 .nosotros{
   background-color: #f7f5f2;
   padding: 100px 0px;
   text-align: center;
 }
 
-/* INTRO */
 .nosotros-intro h1{
   font-family: 'Playfair Display', serif;
   font-size: 45px;
@@ -75,13 +66,13 @@ nav a{
   margin: 0 auto 60px;
 }
 
-/* HISTORIA */
 .nosotros-historia{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: space-between;
-  gap: 80px;
-  margin-top: 80px;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 80px auto 0;
 }
 
 .historia-texto{
@@ -101,19 +92,17 @@ nav a{
 }
 
 .historia-img{
-  flex: 1;
   display: flex;
   justify-content: flex-end;
 }
 
 .historia-img img{
   width: 100%;
-  max-width: 420px;
+  max-width: 380px;
   border-radius: 12px;
   display: block;
 }
 
-/* BLOQUE (igual estilo colección) */
 .nosotros-bloque{
   background-color: #f7f5f2;
   border-top: 1px solid #e5e2dc;
@@ -123,7 +112,6 @@ nav a{
   padding: 30px 40px;
 }
 
-/* VALORES */
 .nosotros-valores{
   display: flex;
   justify-content: space-between;
@@ -135,9 +123,6 @@ nav a{
 .nosotros-valores div{
   flex: 1;
 }
-
-
-
 
 .nosotros-valores h4{
   font-size: 12px;
@@ -151,7 +136,6 @@ nav a{
   color: #6d6d6d;
 }
 
-/* RESPONSIVE */
 @media(max-width:768px){
 
   .nosotros-historia{
@@ -173,9 +157,6 @@ nav a{
     align-items: center;
   }
 }
-
-
-
 
 .suscripcion{
     text-align: center;
